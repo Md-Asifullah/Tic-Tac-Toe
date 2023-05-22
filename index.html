@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Tic Tac Toe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="style.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <script async src="script.js"></script>
+    </head>
+    <body>
+        <h1 class="main-heading">Tic Tac Toe Game</h1>
+        <div id="flex-container">
+            <div class="flex-item box box01" data-number="1"></div>
+            <div class="flex-item box box02" data-number="2"></div>
+            <div class="flex-item box box03" data-number="3"></div>
+        </div>
+        <div id="flex-container">
+            <div class="flex-item box box04" data-number="4"></div>
+            <div class="flex-item box box05" data-number="5"></div>
+            <div class="flex-item box box06" data-number="6"></div>
+        </div>
+        <div id="flex-container">
+            <div class="flex-item box box07" data-number="7"></div>
+            <div class="flex-item box box08" data-number="8"></div>
+            <div class="flex-item box box09" data-number="9"></div>
+        </div>
+        <div id="flex-container resultContainer">
+            <h2 class="result-message hidden">Player X have won the game!</h2>
+        </div>
+        <div id="flex-containerButton" class="hidden">
+            <button class="glass-button hidden btn">Play Again!</button>
+        </div>
+    </body>
+</html>
